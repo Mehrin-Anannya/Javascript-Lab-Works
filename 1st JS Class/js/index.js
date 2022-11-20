@@ -83,7 +83,7 @@ document.writeln(
 document.write("Length of Last Name:  " + studentLastName.length + "<br/>");
 //Function for String Lowercase : .toLowerCase()
 document.writeln(
-  "String Lowercase Function:   " + studentLastName.toLowerCase + "<br/>"
+  "String Lowercase Function:   " + studentLastName.toLowerCase() + "<br/>"
 );
 //Function for String Lowercase : .toUpperCase()
 document.writeln(
@@ -94,4 +94,4 @@ document.writeln(
   "String Slice Function:    " + studentLastName.slice(0, 3) + "<br/>"
 );
 //Function for String Lowercase : .charAt()
-document.writeln("String CharAt Function:   " + studentFirstName.charAt(4));
+document.writeln("String CharAt Function:   " + studentFirstName.charAt(3));
