@@ -16,10 +16,14 @@
 // var age1 = 54;
 // var asA = "10";
 // var asa = "10";
-// var floatNumber = 3.898;
-/*let keyword
+ var floatNumber = 3.898;
+ var floatNumber = 2;
+
+//let keyword
 var age1 = 6;
-let age1 = 5;*/
+//let age1 = 5;
+document.write(floatNumber);
+document.write(age1);
 //var name$="f"; // notrecommended because of its use in jquery
 // var 1name="D" and na me cannot be used. keyword cannot be used
 // keyword cannot be used as
@@ -70,28 +74,28 @@ let age1 = 5;*/
 // );
 
 //String Library Functions
-var studentFirstName = prompt("Enter your first Name");
-var studentLastName = prompt("Enter your last Name");
-document.write(studentFirstName + studentLastName);
+// var studentFirstName = prompt("Enter your first Name");
+// var studentLastName = prompt("Enter your last Name");
+// document.write(studentFirstName + studentLastName);
 
-document.writeln(
-  "String Concatenation:   " +
-    studentFirstName.concat(" " + studentLastName) +
-    "<br/>"
-);
-//Function for String Length : .length
-document.write("Length of Last Name:  " + studentLastName.length + "<br/>");
-//Function for String Lowercase : .toLowerCase()
-document.writeln(
-  "String Lowercase Function:   " + studentLastName.toLowerCase() + "<br/>"
-);
-//Function for String Lowercase : .toUpperCase()
-document.writeln(
-  "String Uppercase Function:   " + studentLastName.toUpperCase() + "<br/>"
-);
-//Function for String Lowercase : .slice()
-document.writeln(
-  "String Slice Function:    " + studentLastName.slice(0, 3) + "<br/>"
-);
-//Function for String Lowercase : .charAt()
-document.writeln("String CharAt Function:   " + studentFirstName.charAt(3));
+// document.writeln(
+//   "String Concatenation:   " +
+//     studentFirstName.concat(" " + studentLastName) +
+//     "<br/>"
+// );
+// //Function for String Length : .length
+// document.write("Length of Last Name:  " + studentLastName.length + "<br/>");
+// //Function for String Lowercase : .toLowerCase()
+// document.writeln(
+//   "String Lowercase Function:   " + studentLastName.toLowerCase() + "<br/>"
+// );
+// //Function for String Lowercase : .toUpperCase()
+// document.writeln(
+//   "String Uppercase Function:   " + studentLastName.toUpperCase() + "<br/>"
+// );
+// //Function for String Lowercase : .slice()
+// document.writeln(
+//   "String Slice Function:    " + studentLastName.slice(0, 3) + "<br/>"
+// );
+// //Function for String Lowercase : .charAt()
+// document.writeln("String CharAt Function:   " + studentFirstName.charAt(3));
