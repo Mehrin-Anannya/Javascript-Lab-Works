@@ -99,3 +99,18 @@ document.write(age1);
 // );
 // //Function for String Lowercase : .charAt()
 // document.writeln("String CharAt Function:   " + studentFirstName.charAt(3));
+
+//Arithmetic operator
+let a = 10;
+let b = 20;
+
+document.write("<br> Arithmetic: " + (a + b));
+//document.write("<br> a++: " + a++);
+b=a++; //for better understanding
+//b=++a; //for better understanding
+document.write("<br> a: " + a);
+document.write("<br> b: " + b);
+
+//Assignment operator
+b = b + 1;
+b+=1;
