@@ -35,6 +35,7 @@ else if(digit > 100 && digit <= 200)
         document.write(">200 & <=300");
         else 
             document.write("Invalid");
+            
  //approach 2nd           
 if(digit <= 100)
     document.write("<= 100");
@@ -49,12 +50,15 @@ else if(digit > 300)
 //     document.write("The number is greater than 30");
 // else 
 //     document.write("The number doesn't satisfies previous two conditions");
-
+if(digit > 0)
+"<br/>Positive<br/>"
+else
+"<br/>Negative<br/>"
 //     // ternary operator
-//     var print = digit > 0 ? "<br/>Positive<br/>":"<br/>Negative<br/>";
-// var print = (!firstNumber && digit  > digit) ? digit > 0 ? "<br/>A<br/>":"<br/> B <br/>":"<br/>Negative<br/>";
-// document.write(print);
-
+var print = digit > 0 ? "<br/>Positive<br/>": "<br/>Negative<br/>";
+//var print = (!firstNumber && digit  > digit) ? digit > 0 ? "<br/>A<br/>":"<br/> B <br/>":"<br/>Negative<br/>";
+document.write(print);
+//digit > 0 ? document.write("<br/>Positive<br/>"):document.write("<br/>Negative<br/>");
 //     //switch
 // var t = parseInt(digit/10)
 // switch(t){
@@ -73,15 +77,28 @@ else if(digit > 300)
 // for(var i = 0; i<3; i++)
 // document.write(i+ "<br/>");
 
-// while(i=0){
-
+// var i = 1;
+// while(i<=10){
+//     document.write(i + "<br>");
+//     i++;
 // }
 
 // do{
+//     document.write(i + "<br>");
+// }
+// while(i <= 10)
+// var i = 1;
+// while(i<=10){
+//     document.write(i + "<br>");
+//     i++;
+// }
 
-// }while(i=0)
+// do{
+//     document.write(i + "<br>");
+//     i++;
+// }
+// while(i <= 12)
 
-// //break
 // for(i = 0 ; i < 5; i++)
 //  {   if(i==2)
 //         break;
