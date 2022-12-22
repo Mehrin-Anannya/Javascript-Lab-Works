@@ -1,9 +1,24 @@
 var names = ["John", "David", "Shaun", "Tom"];
+document.write(names+"<br>");
 
+document.write(names[0] + "<br>");
+document.write(names[1] + "<br>");
+document.write(names[2] + "<br>");
+document.write(names[3] + "<br>");
 
+for(var i = 0 ; i<names.length; i++)
+    document.write(names[i] + "<br>");
 
-// var namesType2 = new Array();
-// var namesType3 = new Array(5);
+var myList = new Array(5);
+for(var i = 0 ; i < myList.length; i++)
+   myList[i] = prompt("Enter" + i +  " index number");
+
+for(var i = 0 ; i<myList.length; i++)
+   document.write(myList[i] + "<br>");
+    
+
+ var namesType2 = new Array();
+ var namesType3 = new Array(5);
 // var namesType4 = new Array();
 // var sortedNames = new Array();
 // //print array
