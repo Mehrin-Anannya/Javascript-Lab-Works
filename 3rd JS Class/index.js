@@ -100,18 +100,18 @@
 
 
 
-// // // 
-// function highestScore(scores){
-//     var high = scores[0];
-//     for(var i = 0; i < 3; i++){
-//         if(high < scores[i])
-//             high = scores[i];
-//     }
-//     return high;
-// }
+// // // finding the highest number
+function highestScore(scores){
+    var high = scores[0];
+    for(var i = 0; i < 3; i++){
+        if(high < scores[i])
+            high = scores[i];
+    }
+    return high;
+}
 
-// var scores = [34, 12, 78];
-// console.log (highestScore(scores));
+var scores = [34, 12, 78];
+console.log (highestScore(scores));
 
 // // //2d array declaration
  var studentInfo = [[1, "A"], [2, "B"], [3, "C"]];
