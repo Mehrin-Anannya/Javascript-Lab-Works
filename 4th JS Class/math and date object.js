@@ -9,7 +9,8 @@ Math.ceil(3.67);
 Math.ceil(3.44);
 Math.round(4.778);
 Math.round(4.23);
-Math.max(3,5,7,10); // can be any number of parameters
+Math.max(3,5,7,10);
+Math.min(3,5,7,10); // can be any number of parameters
 Math.random(); // generates number within 0-1.
 Math.random() * 8; // generates number < 8.
 Math.floor(Math.random() * 8); // generate random number wihin 0 to 8
