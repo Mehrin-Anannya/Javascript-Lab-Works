@@ -1,15 +1,16 @@
-//getElementById
-//console.log(document.getElementById("header1"));
+// //getElementById
+// console.log(document.getElementById("header1"));
 
 // //document.getElementById("header1").innerHTML = "Without Variable";
 // var htmltag = document.getElementById("header1");
 // console.log(htmltag);
 // var header = document.getElementById("header1").innerHTML;
 // console.log(header);
-// htmltag.innerHTML = "Hello";
+// htmltag.innerHTML = "Test";
+// document.write(htmltag.innerHTML);
 
 // //getElementsByTagName
-document.getElementsByTagName("h3"); // practice it in console; it returns HTML Collection
+//document.getElementsByTagName("h3"); // practice it in console; it returns HTML Collection
 //var t = document.getElementsByTagName("h3").innerHTML = "Good students"; // will not show any change 
 //document.getElementsByTagName("h3")[0].innerHTML = "Good girls";
 //document.getElementsByTagName("h3")[1].innerHTML = "Good boys";
@@ -35,6 +36,6 @@ document.getElementsByTagName("h3"); // practice it in console; it returns HTML 
 //  document.querySelector("h3").innerHTML = "QuerSelector of tag";
 
 //query selector use in case of parent and child relation
-document.querySelector("a").innerHTML = "1st anchor tag";
-document.querySelector("li a").innerHTML = "parent li - child anchor tag";
-document.querySelector(".my-div a").innerHTML = "parent div class - child anchor tag";
+// document.querySelector("a").innerHTML = "1st anchor tag";
+// document.querySelector("li a").innerHTML = "parent li - child anchor tag";
+// document.querySelector(".my-div a").innerHTML = "parent div class - child anchor tag";
