@@ -71,17 +71,22 @@ var paraVar = document.querySelector("#imageId");
 let count = 1;
 function nextImage(){
     count++;
-    if(count <= 2){
-        paraVar.src = "images/" + count + ".jfif";
+    if(count < 4){
+        paraVar.src = "images/" + count + ".jpg";
     }
     else{
         count = 1;
-        paraVar.src = "images/" + count + ".jfif";
+        paraVar.src = "images/" + count + ".jpg";
     }
-
-
 }
 
 function previousImage(){
-    
+    count--;
+    if(count > 0){
+        paraVar.src = "images/" + count + ".jpg";
+    }
+    else{
+        count = 3;
+        paraVar.src = "images/" + count + ".jpg";
+    }
 }
