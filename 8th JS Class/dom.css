@@ -1,0 +1,9 @@
+.textStyle{
+    color: rgb(251, 243, 243);
+    letter-spacing: 10px;
+    border: 2px solid rgb(82, 190, 178);
+    padding: 5px;
+    border-radius: 10px;
+    width: fit-content;
+    background: cornflowerblue ;
+}

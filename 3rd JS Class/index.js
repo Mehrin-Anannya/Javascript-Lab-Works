@@ -1,123 +1,116 @@
-// var names = ["John", "David", "Shaun", "Tom"];
-// // // document.write(names+"<br>");
+// clear();
+// //Relational Operator
+ var firstNumber = 100;
+ var secondNumber = 50;
+// var thirdNumber = 40;
 
-// // // document.write(names[0] + "<br>");
-// // // document.write(names[1] + "<br>");
-// // // document.write(names[2] + "<br>");
-// // // document.write(names[3] + "<br>");
+// console.log(firstNumber > secondNumber);
+// console.log(firstNumber >= secondNumber);
+// console.log(firstNumber < secondNumber);
+// console.log(firstNumber <= secondNumber);
+// console.log(firstNumber == secondNumber);
+// console.log(firstNumber === secondNumber);
+// console.log(firstNumber === "100");
+// console.log(firstNumber != secondNumber);
+// console.log(firstNumber !== secondNumber);
+// console.log(firstNumber !== "100");
 
-// // // for(var i = 0 ; i<names.length; i++)
-// // //     document.write(names[i] + "<br>");
-// // for(var i = 0 ; i<names.length; i++)
-// //    document.write("<h1 style='color:red'>" + names[i] + "</h1>");
+// //Logical Operator
 
-// // for(var i = 0 ; i<names.length; i++)
-// //    document.write("<h1 style='background:red; color:black'>" + names[i] + "</h1>");
- 
-//  //taking inputs with array
-// //  var myList = new Array(5);
-// // for(var i = 0 ; i < myList.length; i++){
-// //    myList[i] = prompt("Enter" + i +  " index number");
-// // }
-// // for(var i = 0 ; i<myList.length; i++)
-// //    document.write(myList[i] + "<br>");
+// console.log(firstNumber > secondNumber && firstNumber > thirdNumber); 
+// console.log(firstNumber > secondNumber || firstNumber > thirdNumber); 
+// console.log(!true);
+// console.log(!firstNumber > secondNumber)
 
-// // for(var i = 0 ; i < myList.length; i++){
-// //    myList[i] = prompt("Enter" + i +  " index number");
-// //    document.write(myList[i] + "<br>");
-// // }
-   
-// // var namesType2 = new Array();
-// // var namesType3 = new Array(5);
-// // var namesType4 = new Array();
-// // var sortedNames = new Array();
+//conditional statements 
+//if, else if, else
+var digit = (Number(prompt("Enter any number")));
 
-// // namesType2[0] = "Karim";
-// // namesType2[1] = "Rahim";
-// // namesType3[0] = "Jannatul";
-// // namesType3[1] = "Ferdous";
-// // document.write(namesType2.concat(namesType3)) +"<br>";
-// // document.write(namesType2 + "<br/>");
+//approach 1st
+if(digit <= 100)
+    document.write("<= 100");
+else if(digit > 100 && digit <= 200) 
+    document.write("> 100 & <= 200");
+    else if(digit > 200 && digit <= 300)
+        document.write(">200 & <=300");
+        else 
+            document.write("Invalid");
+            
+ //approach 2nd           
+if(digit <= 100)
+    document.write("<= 100");
+else if(digit > 300) 
+    document.write("Invalid");
+    else if(digit > 200)
+        document.write(">200 & <=300");
+    
+// if(digit < 10 && digit > 0)
+//     document.write("The number is within 0-10");
+// else if (digit > 10 || digit >20 )  
+//     document.write("The number is greater than 30");
+// else 
+//     document.write("The number doesn't satisfies previous two conditions");
+if(digit > 0)
+"<br/>Positive<br/>"
+else
+"<br/>Negative<br/>"
+//     // ternary operator
+var print = digit > 0 ? "<br/>Positive<br/>": "<br/>Negative<br/>";
+//var print = (!firstNumber && digit  > digit) ? digit > 0 ? "<br/>A<br/>":"<br/> B <br/>":"<br/>Negative<br/>";
+document.write(print);
+//digit > 0 ? document.write("<br/>Positive<br/>"):document.write("<br/>Negative<br/>");
+//     //switch
+// var t = parseInt(digit/10)
+// switch(t){
+//     case 10: 
+//     case 9: 
+//     case 8: document.write("<br/> A+");
+//     break;
+//     case 7: document.write("<br/>A");
+//     break;
+//     case 6: document.write("<br/>B");
+//     break;
+//     default: document.write("<br/>Invalid");
+// }
 
-// // //have to put it in a new array
-// // namesType4 = namesType2.concat(namesType3);
-// // document.write(namesType4);
+// //looping
+// for(var i = 0; i<3; i++)
+// document.write(i+ "<br/>");
 
-// // // loop in Array
-// // document.write("<br/>" +"Loop in Array" +"<br/>");
-// // for(var i = 0; i<3; i++)
-// // namesType4[i] = parseInt(prompt("Enter any number"));
+// var i = 1;
+// while(i<=10){
+//     document.write(i + "<br>");
+//     i++;
+// }
 
-// // for(var i = 0; i<3; i++)
-// // document.write(namesType4[i] + "<br/>");
+// do{
+//     document.write(i + "<br>");
+// }
+// while(i <= 10)
+// var i = 1;
+// while(i<=10){
+//     document.write(i + "<br>");
+//     i++;
+// }
 
+// do{
+//     document.write(i + "<br>");
+//     i++;
+// }
+// while(i <= 12)
 
-// // //pop (removes from last)
-// // names.pop();
-// // console.log(names);
+// for(i = 0 ; i < 5; i++)
+//  {   if(i==2)
+//         break;
+//     document.write(i + "<br/>");
+// }
 
-// // // //push adds element in the last
-// // names.push("Test")
-// // console.log(names);
-
-// //shift is opposite of pop (removes from first)
-// names.shift();
-// console.log(names);
-
-// //unshift : adds element in the first
-// names.unshift("You");
-// console.log(names);
-
-// // //splice method : with it elements can be added/removed
-// // //splice(add elements, remove elements) 
-// // //first parameter is for starting index
-// // number of elements you will delete/remove
-// // names.splice(2, 0, "zxc", "dxf");
-// // console.log(names);
-// // //second parameter is for deleting number of elements starting from first index
-// // names.splice(0, 1);
-// // console.log(names);
-
-// // //slice: returns an array and never changes the main array.
-// // namesType4 = names.slice(2,5); // 2 is the starting index
-//                                   //5-2 = 3 elements will be sliced not delete.
-// // console.log(names);
-// // console.log(namesType4);
-// // namesType4 = namesType4.sort();
-// // console.log(namesType4);
-// // //reverse sorting
-// // namesType4.reverse();
-// // console.log(namesType4);
-
-// // // sorting can sort strings not numbers
-// var numbers = [67, 98, 23];
-
-// // number sorting user defined function
-// numbers.sort(function(a,b){
-//     return a-b;
-// });
-// console.log(numbers);
+// //continue
+// for(i = 0 ; i < 5; i++)
+//  {   if(i==2)
+//         continue;
+//     document.write(i + "<br/>");
+// }
 
 
 
-// // // finding the highest number
-function highestScore(scores){
-    var high = scores[0];
-    for(var i = 0; i < 3; i++){
-        if(high < scores[i])
-            high = scores[i];
-    }
-    return high;
-}
-
-var scores = [34, 12, 78];
-console.log (highestScore(scores));
-
-// // //2d array declaration
- var studentInfo = [[1, "A"], [2, "B"], [3, "C"]];
-
-for(var i = 0; i < studentInfo.length; i++){
-    for(var j = 0; j < studentInfo.length - 1; j++)
-        document.write(studentInfo[i][j] + "      ");
-    document.write("<br>");
-}

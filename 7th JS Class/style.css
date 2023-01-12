@@ -1,0 +1,19 @@
+.para-style{
+    color: red;
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+}
+#para-style-id{
+    color: red;
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.para-style-new{
+    color: green;
+    font-size: 6rem;
+    font-weight: bold;
+    font-style: italic;
+}
