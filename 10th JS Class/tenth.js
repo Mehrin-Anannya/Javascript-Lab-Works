@@ -37,11 +37,19 @@ console.log(window);
 // }
 
 //select
-const selectDivision = document.querySelector("#division");
-console.log(selectDivision);
-selectDivision.addEventListener("change", divisionHandler);
+// const selectDivision = document.querySelector("#division");
+// console.log(selectDivision);
+// selectDivision.addEventListener("change", divisionHandler);
 
-function divisionHandler(e){
-    console.log("selected");
-    console.log(e.target.value);
-}
+// function divisionHandler(e){
+//     console.log("selected");
+//     console.log(e.target.value);
+// }
+
+//change css dynamically
+// let text = document.querySelectorAll(".paraId");
+// text.forEach((item) => {
+//     item.addEventListener('click', function(){
+//         item.className = "textStyle";
+//     });
+// });
