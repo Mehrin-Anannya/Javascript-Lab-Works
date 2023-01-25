@@ -18,7 +18,7 @@ const makeRequest = async (url, method, data) => {
 };
 
 const deleteData = () => {
-  makeRequest("https://jsonplaceholder.typicode.com/posts/1", "DELETE").then(
+  makeRequest("https://jsonplaceholder.typicode.com/posts/1", "DELETE", "").then(
     (res) => console.log(res)
   );
 };

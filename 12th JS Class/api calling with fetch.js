@@ -6,18 +6,18 @@ console.clear();
 //Get method with specific values from 1-100
 //gives 404 from 101
 //fetch('https://jsonplaceholder.typicode.com/posts') will fetch all objects
-// fetch('https://jsonplaceholder.typicode.com/posts/101') 
-//   .then((res) => {
-//     if(!res.ok){
-//       const message = `Error: ${res.status}`; // ES6(ECMAScript 2015) representation which 
-//       //removes the use of + for string concatenation
-//       //const message = res.status;
-//       throw new Error(message);
-//     }
-//     return res.json();
-//   })
-//   .then(res => console.log(res))
-//   .catch((err) => console.log(err));
+fetch() 
+  .then((res) => {
+    if(!res.ok){
+      const message = `Error: ${res.status}`; // ES6(ECMAScript 2015) representation which 
+      //removes the use of + for string concatenation
+      //const message = res.status;
+      throw new Error(message);
+    }
+    return res.json();
+  })
+  .then(res => console.log(res))
+  .catch((err) => console.log(err));
 
 // //POST method is for creating a resource
 // fetch('https://jsonplaceholder.typicode.com/posts', {
@@ -44,14 +44,14 @@ console.clear();
 
 
 //   //PUT method is for creating a resource
-// fetch('https://jsonplaceholder.typicode.com/posts/100', {
+// fetch('https://jsonplaceholder.typicode.com/posts/16', {
 //   method : 'PUT',
 //   headers :{     // Run without headers to get the difference
 //     'Content-type': 'application/json; charset=UTF-8', 
 //   },
 //   body : JSON.stringify({
-//     title: "fo",
-//     body : "barjbk",
+//     title: "mehrin",
+//     body : "anannya",
 //     userId: "1",
 //   }), 
 //   }) 
@@ -88,17 +88,17 @@ console.clear();
 //     .catch((err) => console.log(err));
   
   //DELETE method is for creating a resource
-fetch('https://jsonplaceholder.typicode.com/posts/100', {
-  method : 'DELETE',
-  }) 
-    .then((res) => {
-      if(!res.ok){
-        const message = `Error: ${res.status}`; // ES6(ECMAScript 2015) representation which 
-        //removes the use of + for string concatenation
-        throw new Error(message);
-      }
-      return res.json();
-    })
-    .then(res => console.log(res))
-    .catch((err) => console.log(err));
+// fetch('https://jsonplaceholder.typicode.com/posts/16', {
+//   method : 'DELETE',
+//   }) 
+//     .then((res) => {
+//       if(!res.ok){
+//         const message = `Error: ${res.status}`; // ES6(ECMAScript 2015) representation which 
+//         //removes the use of + for string concatenation
+//         throw new Error(message);
+//       }
+//       return res.json();
+//     })
+//     .then(res => console.log(res))
+//     .catch((err) => console.log(err));
   
