@@ -52,12 +52,26 @@
 // //sub(100,45);
 
 
+// let a = Number(prompt("Enter first number:"));
+// let b = Number(prompt("Enter second number:"));
+
+// if(a>b){
+//     document.write("ADD: " + a + "+" + b + " = "+ add(a,b)+ "<br>");
+//     document.write("SUB: " + a + "-" + b + " = "+ sub(a,b)+ "<br>");
+//     document.write("MULTI: " + a + "*" + b + " = "+ multi(a,b)+ "<br>");
+//     document.write("DIV: " + a + "/" + b + " = "+ div(a,b)+ "<br>");
+// }
+// else
+//     document.write("A is not greater that B");
+
+
  //IIFEs(Immediately Invokeable Function Expressions)
  (function show(num1, num2){
      document.write("<br/>IIFEs Immediately Invokeable Function Expressions" + num1 +"<br>" + num2);
   })(12, 45);
 
-
+//iife cannot be called only
+  //document.write(show(34,12));
 
 //  (function show_1(message){
 //     document.write(message);
