@@ -12,6 +12,13 @@
 //     alert("Hello");
 //  });
 
+ // var button = document.querySelector('#addButton');
+ // button.addEventListener("click", addStyle);
+
+/// function addStyle(){
+   // var paraId = document.querySelector('#paraId');
+  //   paraId.classList.toggle("para-style");
+// }
 
 //  document.querySelector("button").
 //  addEventListener("click", 
